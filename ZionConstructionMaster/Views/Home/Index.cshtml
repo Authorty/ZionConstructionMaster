@@ -8,30 +8,33 @@
             <!-- Indicators -->
             <ol class="carousel-indicators visible-xs">
                 <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
-              
+
             </ol>
 
             <div class="carousel-inner">
                 <div class="item active" style="background-image: url('../../Images/mountaintop (2).jpg');">
                     <div class="carousel-caption">
                         <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
-                            <img src="~/Images/CompanyNameNoBack.png" class=" col" />
-                        
+                            <img src="~/Images/CompanyNameNoBack.png" class=" col" style="width:100%;" />
+
                         </div>
                         <div class="col-md-10 col-md-offset-1">
                             <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
                                 <p>*Free, No pressure, In-Home, On-site Estimates.</p>
+                                <p><i><small>Call today: 920-850-6533</small></i></p>
                             </div>
                         </div>
                         <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
                             <form class="form-inline">
                                 <div class="form-group">
-                                    <button  class="btn btn-primary btn-medium" required="required">
-                                       Request Project Quote
-                                    </button>
+                                    <a href="#section-contact" class="btn btn-primary btn-medium">
+                                        Request Project Quote
+                                    </a>
                                 </div>
                                 <div class="form-group">
-                                    <button class="btn btn-primary btn-medium" required="required">Contact Us</button>
+                                    <a href="#section-contact" class="btn btn-primary btn-medium">
+                                        Contact Us
+                                    </a>
                                 </div>
                             </form>
                         </div>
@@ -51,14 +54,14 @@
                 </div>
             </div>
 
-            <a class="left carousel-control hidden-xs" data-slide="prev">
+            @*<a class="left carousel-control hidden-xs" data-slide="prev">
                 <i class="fa fa-angle-left"></i>
             </a>
 
-            <a class=" right carousel-control hidden-xs"  data-slide="next">
+            <a class=" right carousel-control hidden-xs" data-slide="next">
                 <i class="fa fa-angle-right"></i>
-            </a>
- </div>
+            </a>*@
+        </div>
 
 
         <!--/#carousel-slider-->
@@ -67,12 +70,35 @@
     <!--/#about-slider-->
 </div>
 <!--/#slider-->
-
-
 <!--about-->
 <section id="section-about">
     <div class="container">
         <div class="about">
+
+            <div class="row mar-bot40">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="title">
+                        <div class="wow bounceIn">
+
+                            <h2 class="section-heading animated" data-animation="bounceInUp">About Us</h2>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 ">
+                <div class="company mar-left10">
+                    <p>
+                        Zion Construction is a family owned business in the heart of the Fox Valley area. We pride ourselves in working with families to design and remodel their home. With 15 years of experience we hope to help you to create the home of your dreams.
+                    </p>
+                </div>
+
+            </div>
+
+
             <div class="row mar-bot40">
                 <div class="col-md-offset-3 col-md-6">
                     <div class="title">
@@ -94,9 +120,9 @@
                                 <ul>
                                     <div class="slide-body" data-group="slide">
                                         <li><img alt="" class="img-responsive" src="~/Images/590x350Floor.jpg" height="350px" width="100%" /> </li>
-                                        <li><img alt="" class="img-responsive"  src="~/Images/590x350deck.jpg" height="350px" width="100%"  /></li>
+                                        <li><img alt="" class="img-responsive" src="~/Images/590x350deck.jpg" height="350px" width="100%" /></li>
                                         <li><img alt="" class="img-responsive" src="~/Images/590x350Window.jpg" height="350px" width="100%" /></li>
-                                        
+
                                     </div>
                                 </ul>
                                 <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
@@ -113,7 +139,8 @@
                             </h4>
                             <p>
                                 by providing quality craftsmanship Zion Construction is dedicated to give every customer the
-                             best approach to construct their project.</p>
+                                best approach to construct their project.
+                            </p>
                         </div>
                         <div class="list-style">
                             <div class="row">
@@ -145,9 +172,6 @@
     </div>
 </section>
 <!--/about-->
-
-
-
 <!-- services -->
 
 <section id="services" class="section pad-bot5 bg-white">
@@ -164,20 +188,25 @@
             </div>
         </div>
         <div class="row mar-bot40">
+
             <div class="col-lg-4">
-                <div class="wow bounceIn">
-                    <div class="align-center">
+                <div class="align-center">
+                    <div class="wow bounceIn">
+
 
                         <div class="wow rotateIn">
                             <div class="service-col">
                                 <div class="service-icon">
-                                    <figure><i class="fal fa-box-usd"></i></figure>
+                                    <figure>
+                                        @*<i class="fa fa-box-usd"></i>*@
+                                        <i class="fas fa-user-check"></i>
+                                    </figure>
                                 </div>
                                 <h2><a href="#">Bid Process</a></h2>
                                 <p>
-                                    Zion Construction, works with a select group of subcontractors and 
+                                    Zion Construction, works with a select group of subcontractors and
                                     suppliers to obtain the best price with the most quality.
-                                     We also consider recommendations from the owner in obtaining bids.
+                                    We also consider recommendations from the owner in obtaining bids.
                                 </p>
                             </div>
                         </div>
@@ -185,22 +214,23 @@
                 </div>
             </div>
 
+
             <div class="col-lg-4">
                 <div class="align-center">
                     <div class="wow bounceIn">
-
                         <div class="wow rotateIn">
                             <div class="service-col">
                                 <div class="service-icon">
-                                    <figure><i class="fa fa-desktop"></i></figure>
+                                    <figure><i class="fas fa-hammer"></i></figure>
                                 </div>
-                                <h2><a href="#">Installation</a></h2>
+                                <h2>@*<a href="#">*@Installation@*</a>*@</h2>
                                 <p>
                                     <ul>
                                         <li>Doors</li>
                                         <li>Flooring</li>
                                         <li>Windows</li>
                                         <li>Roofing</li>
+                                        <li>And many more!</li>
                                     </ul>
                                 </p>
                             </div>
@@ -212,157 +242,151 @@
             <div class="col-lg-4">
                 <div class="align-center">
                     <div class="wow bounceIn">
-                        <div class="service-col">
-                            <div class="service-icon">
-                                <figure><i class="fa fa-dropbox"></i></figure>
-                            </div>
-                            <h2><a href="#">Location</a></h2>
-                            <p> We serve the following and surrounding areas in Wisconsin: 
-                            <ul>
-                                <div class="col-lg-6 col-sm-6 col-xs-12">
-                                    <li>Appleton</li>
-                                    <li>Fox Cities</li>
-                                    <li>Green Bay</li>
-                                   
+                        <div class="wow rotateIn">
+                            <div class="service-col">
+                                <div>
+                                    <div class="service-icon">
+                                        <figure><i class="fas fa-globe-americas"></i></figure>
                                     </div>
-                                    <div class="col-lg-6 col-sm-6 col-xs-12">
-                                        <ul>
+                                    <h2>@*<a href="#">*@Location@*</a>*@</h2>
+                                    <p>We serve the following and surrounding areas in Wisconsin:</p>
+                                    <div class="row">
+                                        <ul class="col-md-6">
+                                            <li>Appleton</li>
+                                            <li>Fox Cities</li>
+                                            <li>Green Bay</li>
+                                        </ul>
+                                        <ul class="col-md-6">
                                             <li>New London</li>
                                             <li>OshKosh</li>
                                             <li> Onedia</li>
-                                           
-                                            
                                         </ul>
                                     </div>
-                                   
-</ul>
-                            </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
-
-    </div>
 </section>
 
 <!-- team -->
-<section id="team" class="team-section appear clearfix">
-    <div class="container">
+@*<section id="team" class="team-section appear clearfix">
+        <div class="container">
 
-        <div class="row mar-bot10">
-            <div class="col-md-offset-3 col-md-6">
-                <div class="section-header">
+            <div class="row mar-bot10">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="section-header">
+                        <div class="wow bounceIn">
+
+                            <h2 class="section-heading animated" data-animation="bounceInUp">Our Team</h2>
+                            <p>
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-center mar-bot45">
+                <div class="col-md-4">
+                    <div class="wow bounceIn" data-animation-delay="4.8s">
+                        <div class="team-member">
+                            <div class="profile-picture">
+                                <figure><img src="../../Images/members3.jpg" alt=""></figure>
+                                <div class="profile-overlay"></div>
+                                <div class="profile-social">
+                                    <div class="icons-wrapper">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-detail">
+                                <h4>Ron Evgeniy</h4>
+                                <span>User experiences</span>
+                            </div>
+                            <div class="team-bio">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci
+                                    accusantium minus asperiores.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+
                     <div class="wow bounceIn">
-
-                        <h2 class="section-heading animated" data-animation="bounceInUp">Our Team</h2>
-                        <p>
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia
-                            non numquam.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row align-center mar-bot45">
-            <div class="col-md-4">
-                <div class="wow bounceIn" data-animation-delay="4.8s">
-                    <div class="team-member">
-                        <div class="profile-picture">
-                            <figure><img src="../../Images/members3.jpg" alt=""></figure>
-                            <div class="profile-overlay"></div>
-                            <div class="profile-social">
-                                <div class="icons-wrapper">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <div class="team-member">
+                            <div class="profile-picture">
+                                <figure><img src="../../Images/members1.jpg" alt=""></figure>
+                                <div class="profile-overlay"></div>
+                                <div class="profile-social">
+                                    <div class="icons-wrapper">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="team-detail">
-                            <h4>Ron Evgeniy</h4>
-                            <span>User experiences</span>
-                        </div>
-                        <div class="team-bio">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci
-                                accusantium minus asperiores.
-                            </p>
+                            <div class="team-detail">
+                                <h4>Alexander Chernov</h4>
+                                <span>Web developer</span>
+                            </div>
+                            <div class="team-bio">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci
+                                    accusantium minus asperiores.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
+                <div class="col-md-4">
+                    <div class="wow bounceIn">
+                        <div class="team-member">
+                            <div class="profile-picture">
+                                <figure><img src="../../Images/members2.jpg" alt=""></figure>
+                                <div class="profile-overlay"></div>
+                                <div class="profile-social">
+                                    <div class="icons-wrapper">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-detail">
+                                <h4>Jose Manuel</h4>
+                                <span>Web designer</span>
+                            </div>
+                            <div class="team-bio">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci
+                                    accusantium minus asperiores.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <div class="wow bounceIn">
-                    <div class="team-member">
-                        <div class="profile-picture">
-                            <figure><img src="../../Images/members1.jpg" alt=""></figure>
-                            <div class="profile-overlay"></div>
-                            <div class="profile-social">
-                                <div class="icons-wrapper">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-detail">
-                            <h4>Alexander Chernov</h4>
-                            <span>Web developer</span>
-                        </div>
-                        <div class="team-bio">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci
-                                accusantium minus asperiores.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="wow bounceIn">
-                    <div class="team-member">
-                        <div class="profile-picture">
-                            <figure><img src="../../Images/members2.jpg" alt=""></figure>
-                            <div class="profile-overlay"></div>
-                            <div class="profile-social">
-                                <div class="icons-wrapper">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-detail">
-                            <h4>Jose Manuel</h4>
-                            <span>Web designer</span>
-                        </div>
-                        <div class="team-bio">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci
-                                accusantium minus asperiores.
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </div>
 
         </div>
-
-    </div>
-</section>
+    </section>*@
 <!-- /team -->
-
 <!-- section works -->
 <section id="section-works" class="section appear clearfix">
     <div class="container">
@@ -370,10 +394,9 @@
         <div class="row mar-bot40">
             <div class="col-md-offset-3 col-md-6">
                 <div class="section-header">
-                    <h2 class="section-heading animated" data-animation="bounceInUp">Portfolio</h2>
+                    <h2 class="section-heading animated" data-animation="bounceInUp">Photos</h2>
                     <p>
-                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia
-                        non numquam.
+                        Doors and windows, New homes to remodels. Here are some examples of my past work.
                     </p>
                 </div>
             </div>
@@ -400,12 +423,12 @@
                         <article class="col-md-4 isotopeItem Doors">
                             <div class="portfolio-item">
                                 <div class="wow rotateInUpLeft" data-animation-delay="4.8s">
-                                   <img src="../../Images/Doors/3.jpg" alt="welcome" />
+                                    <img src="../../Images/Doors/3.jpg" alt="welcome" />
                                 </div>
                                 <div class="portfolio-desc align-center">
                                     <div class="folio-info">
                                         <h5><a href="#">Doors</a></h5>
-                                        <a href="../../Images/Doors/3.jpg"class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
+                                        <a href="../../Images/Doors/3.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
                                     </div>
                                 </div>
 
@@ -450,7 +473,7 @@
                                 <div class="portfolio-desc align-center">
                                     <div class="folio-info">
                                         <h5><a href="#">Flooring</a></h5>
-                                        <a href="../../Images/Flooring/IMG_3568.jpg"  class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
+                                        <a href="../../Images/Flooring/IMG_3568.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -459,7 +482,7 @@
                         <article class="col-md-4 isotopeItem Flooring">
                             <div class="portfolio-item">
                                 <div class="wow rotateInDownRight">
-                                    
+
                                     <img src="../../Images/Flooring/IMG_3569.jpg" alt="" />
                                 </div>
                                 <div class="portfolio-desc align-center">
@@ -474,7 +497,7 @@
                         <article class="col-md-4 isotopeItem Flooring">
                             <div class="portfolio-item">
                                 <div class="wow rotateInDownRight">
-                                   <img src="../../Images/Flooring/IMG_3571.jpg" alt="" />
+                                    <img src="../../Images/Flooring/IMG_3571.jpg" alt="" />
                                 </div>
                                 <div class="portfolio-desc align-center">
                                     <div class="folio-info">
@@ -533,7 +556,7 @@
                             <div class="portfolio-item">
                                 <div class="wow rotateInDownRight">
                                     <img src="~/Images/Roofing/11.jpg" />
-                                    <img src="../../Images/Roofing/11.jpg" alt="" />
+                                    @*<img src="../../Images/Roofing/11.jpg" alt="" />*@
                                 </div>
                                 <div class="portfolio-desc align-center">
                                     <div class="folio-info">
@@ -547,7 +570,7 @@
                         <article class="col-md-4 isotopeItem Siding">
                             <div class="portfolio-item">
                                 <div class="wow rotateInUpLeft">
-                                    
+
                                     <img src="../../Images/Siding/6.jpg" alt="" />
                                 </div>
                                 <div class="portfolio-desc align-center">
@@ -563,7 +586,7 @@
                         <article class="col-md-4 isotopeItem Siding">
                             <div class="portfolio-item">
                                 <div class="wow rotateInUpLeft">
-                                 
+
                                     <img src="../../Images/Siding/4.jpg" alt="" />
                                 </div>
                                 <div class="portfolio-desc align-center">
@@ -577,7 +600,7 @@
 
                         <article class="col-md-4 isotopeItem Siding">
                             <div class="portfolio-item">
-                                <div class="wow rotateInUpLeft">                                
+                                <div class="wow rotateInUpLeft">
                                     <img src="../../Images/Siding/5.jpg" alt="" />
                                 </div>
                                 <div class="portfolio-desc align-center">
@@ -592,7 +615,7 @@
                         <article class="col-md-4 isotopeItem Windows">
                             <div class="portfolio-item">
                                 <div class="wow rotateInDownRight">
-                                  
+
                                     <img src="../../Images/Windows/1.jpg" alt="" />
                                 </div>
                                 <div class="portfolio-desc align-center">
@@ -603,24 +626,27 @@
                                 </div>
                             </div>
                         </article>
+                    </div>
+
+
                 </div>
-
-
             </div>
-        </div>
 
-    </div>
+        </div>
 </section>
 
-<section id="parallax2" class="section parallax" data-stellar-background-ratio="0.5">
+
+
+<section id="parallax2" class="section appear" >
     <div class="align-center pad-top40 pad-bot30">
-        <h4 class="color-white pad-top50">The middle of that asteroid field</h4>
-        <p class="color-white">
-            We can repair any dings and scrapes to your spacecraft and support,Planning a time travel
-            trip to the middle ages Feugiat accumsan Suspendisse eget Duis faucibus tempus pede pede augue pede.Dapibus
-            mollis dignissim suscipit porta justo nisl amet
-            Nunc quis semper.
-        </p>
+        <h2 class="color-white">DIY Consulting</h2>
+        <div class="row col-md-10 col-md-offset-1">
+            <div class="jumbotron">
+                <p class="">
+                    We can help you on any project big or small. Doing projects in one home is a great way to add equity into your investment, and doing it your self can save you tons of money. When it comes to your home, ensuring it is done right, or you are taking everything into account can be quite daunting.  At Zion Construction we provide a consulting service.  I can provide you with answers to many questions related to your project, or even lend on a hand on certain parts.  Maybe you would like to do half the work, and have me finish some of the more daunting pieces.  Or you just want to know that while working if something goes hay wire you have someone you can lean on.  My DIY Consulting Program can meet all of your needs.
+                </p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -633,7 +659,7 @@
                 <div class="section-header">
                     <h2 class="section-heading animated" data-animation="bounceInUp">Contact us</h2>
                     <p>
-                       For more info on services or for a project quote please contact us.
+                        For more info on services or for a project quote please contact us.
                     </p>
                 </div>
             </div>
@@ -659,12 +685,17 @@
                         <div class="validation"></div>
                     </div>
                     <div class="form-group">
+                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" data-rule="minlen:7"
+                               data-msg="Please enter at least 7 chars for the phone" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
                         <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"
                                   placeholder="Message"></textarea>
                         <div class="validation"></div>
                     </div>
 
-                    <div class="text-center"><button type="submit" class="line-btn green">Send Message</button></div>
+                    <div class="text-center"><button type="submit" id="emailSubmit" class="line-btn green">Send Message</button></div>
                 </form>
             </div>
             <!-- ./span12 -->
@@ -675,7 +706,9 @@
 
 <!-- map -->
 <section id="section-map" class="clearfix">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+    @*<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sAppletonk%2C+WI%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>*@
+    <div style="width: 100%"><iframe width="100%" height="380" src="https://maps.google.com/maps?width=100%&amp;height=380&amp;hl=en&amp;q=Appleton%20Wisconsin+(Zion%20Construction%20)&amp;ie=UTF8&amp;t=&amp;z=12&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Map a route</a></iframe></div><br />
+
 </section>
 
 <section id="footer" class="section footer">
@@ -683,11 +716,11 @@
         <div class="row animated opacity mar-bot0" data-andown="fadeIn" data-animation="animation">
             <div class="col-sm-12 align-center">
                 <ul class="social-network social-circle">
-                    <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-                    <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    @*<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>*@
+                    <li><a href="https://www.facebook.com/ZionConstructionofWI" class="icoFacebook" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+                    @*<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>*@
                 </ul>
             </div>
         </div>
@@ -710,3 +743,46 @@
 
 </section>
 <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+
+            $('#emailSubmit').click(function (e) {
+                e.preventDefault(); // <------------------ stop default behaviour of button
+                alert('test');
+                var element = this;
+                var name = $("#name").val();
+                var subject = $("#subject").val();
+                var message = $("#message").val();
+                var email = $("#email").val();
+                var phone = $("#phone").val();
+
+                $.ajax({
+                    url: '@Url.Action("SendEmail","Home")',
+                    type: "POST",
+                    data: JSON.stringify({
+                        'Name': name, 'Phone': phone, 'Message': message, 'Email': email, 'Subject': subject
+                    }),
+                    dataType: "json",
+                    traditional: true,
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        if (data.status == "Success") {
+                            alert("Done");
+                            $(element).closest("form").submit(); //<------------ submit form
+                        } else {
+                            alert("Error occurs on the Database level!");
+                        }
+                    },
+                    error: function () {
+                        alert("An error has occured!!!");
+                    }
+
+                });
+            });
+        });
+
+    </script>
+}

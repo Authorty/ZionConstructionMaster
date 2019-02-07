@@ -1010,11 +1010,11 @@ section.featured h2.slogan {
     height: 60px !important;
   }
 
-  .navbar-header {
-    background: #000000;
-    height: 60px !important;
-    line-height: 55px;
-  }
+    .navbar-header {
+        background-color: rgba(5, 42, 2, 0.4);
+        height: 60px !important;
+        line-height: 55px;
+    }
 
   .navbar-brand {
     line-height: 60px;
@@ -2186,9 +2186,9 @@ Media queries
 
 @media (max-width: 767px) {
 
-  .navbar.navbar-fixed-top {
+  /*.navbar.navbar-fixed-top {
     background-color: rgba(0, 0, 0, 1);
-  }
+  }*/
 
   .navbar .navbar-collapse ul.nav {
     background-color: #444;

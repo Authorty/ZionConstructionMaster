@@ -69,29 +69,29 @@
 
   }
 
-  // fancybox
+  //// fancybox
   jQuery(".fancybox").fancybox();
 
-  if (Modernizr.mq("screen and (max-width:1024px)")) {
-    jQuery("body").toggleClass("body");
+  //if (Modernizr.mq("screen and (max-width:1024px)")) {
+  //  jQuery("body").toggleClass("body");
 
-  } else {
-    var s = skrollr.init({
-      mobileDeceleration: 1,
-      edgeStrategy: 'set',
-      forceHeight: true,
-      smoothScrolling: true,
-      smoothScrollingDuration: 300,
-      easing: {
-        WTF: Math.random,
-        inverted: function (p) {
-          return 1 - p;
-        }
-      }
-    });
-  }
+  //} else {
+  //  var s = skrollr.init({
+  //    mobileDeceleration: 1,
+  //    edgeStrategy: 'set',
+  //    forceHeight: true,
+  //    smoothScrolling: true,
+  //    smoothScrollingDuration: 300,
+  //    easing: {
+  //      WTF: Math.random,
+  //      inverted: function (p) {
+  //        return 1 - p;
+  //      }
+  //    }
+  //  });
+  //}
 
-  //scroll menu
+  ////scroll menu
   jQuery('.appear').appear();
   jQuery(".appear").on("appear", function (data) {
     var id = $(this).attr("id");
